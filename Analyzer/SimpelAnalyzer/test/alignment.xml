@@ -1,0 +1,224 @@
+<!--
+Shifts in um, rotations in mrad.
+For more details see RPAlignmentCorrections::LoadXMLFile in
+TotemAlignment/RPDataFormats/src/RPAlignmentCorrectionsSequence.cc
+-->
+
+<xml DocumentType="AlignmentDescription">
+	<!-- NB: RP alignments are applied also to all sensors inside -->
+
+	<!-- totem RP -->
+	<!-- 0 top: -->
+	<!-- arm=0 station=2 rp=0 plane=0, all channels -->
+	<det id="2088763392" sh_x="0" sh_y="0" />
+	<det id="2088767488" sh_x="0" sh_y="0" />
+	<det id="2088771584" sh_x="0" sh_y="0" />
+	<det id="2088775680" sh_x="0" sh_y="0" />
+	<det id="2088779776" sh_x="0" sh_y="0" />
+	<det id="2088783872" sh_x="0" sh_y="0" />
+	<det id="2088787968" sh_x="0" sh_y="0" />
+	<det id="2088792064" sh_x="0" sh_y="0" />
+	<det id="2088796160" sh_x="0" sh_y="0" />
+	<det id="2088800256" sh_x="0" sh_y="0" />
+	<det id="2088804352" sh_x="0" sh_y="0" />
+	<det id="2088808448" sh_x="0" sh_y="0" />
+	<!-- arm=0 station=2 rp=0 plane=1, all channels -->
+	<det id="2088894464" sh_x="+170" sh_y="+230" />
+	<det id="2088898560" sh_x="+170" sh_y="+230" />
+	<det id="2088902656" sh_x="+170" sh_y="+230" />
+	<det id="2088906752" sh_x="+170" sh_y="+230" />
+	<det id="2088910848" sh_x="+170" sh_y="+230" />
+	<det id="2088914944" sh_x="+170" sh_y="+230" />
+	<det id="2088919040" sh_x="+170" sh_y="+230" />
+	<det id="2088923136" sh_x="+170" sh_y="+230" />
+	<det id="2088927232" sh_x="+170" sh_y="+230" />
+	<det id="2088931328" sh_x="+170" sh_y="+230" />
+	<det id="2088935424" sh_x="+170" sh_y="+230" />
+	<det id="2088939520" sh_x="+170" sh_y="+230" />
+	<!-- arm=0 station=2 rp=0 plane=2, all channels -->
+	<det id="2089025536" sh_x="+350" sh_y="-60" />
+	<det id="2089029632" sh_x="+350" sh_y="-60" />
+	<det id="2089033728" sh_x="+350" sh_y="-60" />
+	<det id="2089037824" sh_x="+350" sh_y="-60" />
+	<det id="2089041920" sh_x="+350" sh_y="-60" />
+	<det id="2089046016" sh_x="+350" sh_y="-60" />
+	<det id="2089050112" sh_x="+350" sh_y="-60" />
+	<det id="2089054208" sh_x="+350" sh_y="-60" />
+	<det id="2089058304" sh_x="+350" sh_y="-60" />
+	<det id="2089062400" sh_x="+350" sh_y="-60" />
+	<det id="2089066496" sh_x="+350" sh_y="-60" />
+	<det id="2089070592" sh_x="+350" sh_y="-60" />
+	<!-- arm=0 station=2 rp=0 plane=3, all channels -->
+	<det id="2089156608" sh_x="+200" sh_y="-90" />
+	<det id="2089160704" sh_x="+200" sh_y="-90" />
+	<det id="2089164800" sh_x="+200" sh_y="-90" />
+	<det id="2089168896" sh_x="+200" sh_y="-90" />
+	<det id="2089172992" sh_x="+200" sh_y="-90" />
+	<det id="2089177088" sh_x="+200" sh_y="-90" />
+	<det id="2089181184" sh_x="+200" sh_y="-90" />
+	<det id="2089185280" sh_x="+200" sh_y="-90" />
+	<det id="2089189376" sh_x="+200" sh_y="-90" />
+	<det id="2089193472" sh_x="+200" sh_y="-90" />
+	<det id="2089197568" sh_x="+200" sh_y="-90" />
+	<det id="2089201664" sh_x="+200" sh_y="-90" />
+	<!-- 0 bottom: -->
+	<!-- arm=0 station=2 rp=1 plane=0, all channels -->
+	<det id="2089287680" sh_x="0" sh_y="0" />
+	<det id="2089291776" sh_x="0" sh_y="0" />
+	<det id="2089295872" sh_x="0" sh_y="0" />
+	<det id="2089299968" sh_x="0" sh_y="0" />
+	<det id="2089304064" sh_x="0" sh_y="0" />
+	<det id="2089308160" sh_x="0" sh_y="0" />
+	<det id="2089312256" sh_x="0" sh_y="0" />
+	<det id="2089316352" sh_x="0" sh_y="0" />
+	<det id="2089320448" sh_x="0" sh_y="0" />
+	<det id="2089324544" sh_x="0" sh_y="0" />
+	<det id="2089328640" sh_x="0" sh_y="0" />
+	<det id="2089332736" sh_x="0" sh_y="0" />
+	<!-- arm=0 station=2 rp=1 plane=1, all channels -->
+	<det id="2089418752" sh_x="-860" sh_y="+130" />
+	<det id="2089422848" sh_x="-860" sh_y="+130" />
+	<det id="2089426944" sh_x="-860" sh_y="+130" />
+	<det id="2089431040" sh_x="-860" sh_y="+130" />
+	<det id="2089435136" sh_x="-860" sh_y="+130" />
+	<det id="2089439232" sh_x="-860" sh_y="+130" />
+	<det id="2089443328" sh_x="-860" sh_y="+130" />
+	<det id="2089447424" sh_x="-860" sh_y="+130" />
+	<det id="2089451520" sh_x="-860" sh_y="+130" />
+	<det id="2089455616" sh_x="-860" sh_y="+130" />
+	<det id="2089459712" sh_x="-860" sh_y="+130" />
+	<det id="2089463808" sh_x="-860" sh_y="+130" />
+	<!-- arm=0 station=2 rp=1 plane=2, all channels -->
+	<det id="2089549824" sh_x="-210" sh_y="+230" />
+	<det id="2089553920" sh_x="-210" sh_y="+230" />
+	<det id="2089558016" sh_x="-210" sh_y="+230" />
+	<det id="2089562112" sh_x="-210" sh_y="+230" />
+	<det id="2089566208" sh_x="-210" sh_y="+230" />
+	<det id="2089570304" sh_x="-210" sh_y="+230" />
+	<det id="2089574400" sh_x="-210" sh_y="+230" />
+	<det id="2089578496" sh_x="-210" sh_y="+230" />
+	<det id="2089582592" sh_x="-210" sh_y="+230" />
+	<det id="2089586688" sh_x="-210" sh_y="+230" />
+	<det id="2089590784" sh_x="-210" sh_y="+230" />
+	<det id="2089594880" sh_x="-210" sh_y="+230" />
+	<!-- arm=0 station=2 rp=1 plane=3, all channels -->
+	<det id="2089680896" sh_x="-260" sh_y="+370" />
+	<det id="2089684992" sh_x="-260" sh_y="+370" />
+	<det id="2089689088" sh_x="-260" sh_y="+370" />
+	<det id="2089693184" sh_x="-260" sh_y="+370" />
+	<det id="2089697280" sh_x="-260" sh_y="+370" />
+	<det id="2089701376" sh_x="-260" sh_y="+370" />
+	<det id="2089705472" sh_x="-260" sh_y="+370" />
+	<det id="2089709568" sh_x="-260" sh_y="+370" />
+	<det id="2089713664" sh_x="-260" sh_y="+370" />
+	<det id="2089717760" sh_x="-260" sh_y="+370" />
+	<det id="2089721856" sh_x="-260" sh_y="+370" />
+	<det id="2089725952" sh_x="-260" sh_y="+370" />
+	<!-- 1 top: -->
+	<!-- arm=1 station=2 rp=0 plane=0, all channels -->
+	<det id="2105540608" sh_x="0" sh_y="0" />
+	<det id="2105544704" sh_x="0" sh_y="0" />
+	<det id="2105548800" sh_x="0" sh_y="0" />
+	<det id="2105552896" sh_x="0" sh_y="0" />
+	<det id="2105556992" sh_x="0" sh_y="0" />
+	<det id="2105561088" sh_x="0" sh_y="0" />
+	<det id="2105565184" sh_x="0" sh_y="0" />
+	<det id="2105569280" sh_x="0" sh_y="0" />
+	<det id="2105573376" sh_x="0" sh_y="0" />
+	<det id="2105577472" sh_x="0" sh_y="0" />
+	<det id="2105581568" sh_x="0" sh_y="0" />
+	<det id="2105585664" sh_x="0" sh_y="0" />
+	<!-- arm=1 station=2 rp=0 plane=1, all channels -->
+	<det id="2105671680" sh_x="0" sh_y="0" />
+	<det id="2105675776" sh_x="0" sh_y="0" />
+	<det id="2105679872" sh_x="0" sh_y="0" />
+	<det id="2105683968" sh_x="0" sh_y="0" />
+	<det id="2105688064" sh_x="0" sh_y="0" />
+	<det id="2105692160" sh_x="0" sh_y="0" />
+	<det id="2105696256" sh_x="0" sh_y="0" />
+	<det id="2105700352" sh_x="0" sh_y="0" />
+	<det id="2105704448" sh_x="0" sh_y="0" />
+	<det id="2105708544" sh_x="0" sh_y="0" />
+	<det id="2105712640" sh_x="0" sh_y="0" />
+	<det id="2105716736" sh_x="0" sh_y="0" />
+	<!-- arm=1 station=2 rp=0 plane=2, all channels -->
+	<det id="2105802752" sh_x="-200" sh_y="+340" />
+	<det id="2105806848" sh_x="-200" sh_y="+340" />
+	<det id="2105810944" sh_x="-200" sh_y="+340" />
+	<det id="2105815040" sh_x="-200" sh_y="+340" />
+	<det id="2105819136" sh_x="-200" sh_y="+340" />
+	<det id="2105823232" sh_x="-200" sh_y="+340" />
+	<det id="2105827328" sh_x="-200" sh_y="+340" />
+	<det id="2105831424" sh_x="-200" sh_y="+340" />
+	<det id="2105835520" sh_x="-200" sh_y="+340" />
+	<det id="2105839616" sh_x="-200" sh_y="+340" />
+	<det id="2105843712" sh_x="-200" sh_y="+340" />
+	<det id="2105847808" sh_x="-200" sh_y="+340" />
+	<!-- arm=1 station=2 rp=0 plane=3, all channels -->
+	<det id="2105933824" sh_x="+220" sh_y="-260" />
+	<det id="2105937920" sh_x="+220" sh_y="-260" />
+	<det id="2105942016" sh_x="+220" sh_y="-260" />
+	<det id="2105946112" sh_x="+220" sh_y="-260" />
+	<det id="2105950208" sh_x="+220" sh_y="-260" />
+	<det id="2105954304" sh_x="+220" sh_y="-260" />
+	<det id="2105958400" sh_x="+220" sh_y="-260" />
+	<det id="2105962496" sh_x="+220" sh_y="-260" />
+	<det id="2105966592" sh_x="+220" sh_y="-260" />
+	<det id="2105970688" sh_x="+220" sh_y="-260" />
+	<det id="2105974784" sh_x="+220" sh_y="-260" />
+	<det id="2105978880" sh_x="+220" sh_y="-260" />
+	<!-- 1 bottom -->
+	<!-- arm=1 station=2 rp=1 plane=0, all channels -->
+	<det id="2106064896" sh_x="0" sh_y="0" />
+	<det id="2106068992" sh_x="0" sh_y="0" />
+	<det id="2106073088" sh_x="0" sh_y="0" />
+	<det id="2106077184" sh_x="0" sh_y="0" />
+	<det id="2106081280" sh_x="0" sh_y="0" />
+	<det id="2106085376" sh_x="0" sh_y="0" />
+	<det id="2106089472" sh_x="0" sh_y="0" />
+	<det id="2106093568" sh_x="0" sh_y="0" />
+	<det id="2106097664" sh_x="0" sh_y="0" />
+	<det id="2106101760" sh_x="0" sh_y="0" />
+	<det id="2106105856" sh_x="0" sh_y="0" />
+	<det id="2106109952" sh_x="0" sh_y="0" />
+	<!-- arm=1 station=2 rp=1 plane=1, all channels -->
+	<det id="2106195968" sh_x="+50" sh_y="+210" />
+	<det id="2106200064" sh_x="+50" sh_y="+210" />
+	<det id="2106204160" sh_x="+50" sh_y="+210" />
+	<det id="2106208256" sh_x="+50" sh_y="+210" />
+	<det id="2106212352" sh_x="+50" sh_y="+210" />
+	<det id="2106216448" sh_x="+50" sh_y="+210" />
+	<det id="2106220544" sh_x="+50" sh_y="+210" />
+	<det id="2106224640" sh_x="+50" sh_y="+210" />
+	<det id="2106228736" sh_x="+50" sh_y="+210" />
+	<det id="2106232832" sh_x="+50" sh_y="+210" />
+	<det id="2106236928" sh_x="+50" sh_y="+210" />
+	<det id="2106241024" sh_x="+50" sh_y="+210" />
+	<!-- arm=1 station=2 rp=1 plane=2, all channels -->
+	<det id="2106327040" sh_x="0" sh_y="-10" />
+	<det id="2106331136" sh_x="0" sh_y="-10" />
+	<det id="2106335232" sh_x="0" sh_y="-10" />
+	<det id="2106339328" sh_x="0" sh_y="-10" />
+	<det id="2106343424" sh_x="0" sh_y="-10" />
+	<det id="2106347520" sh_x="0" sh_y="-10" />
+	<det id="2106351616" sh_x="0" sh_y="-10" />
+	<det id="2106355712" sh_x="0" sh_y="-10" />
+	<det id="2106359808" sh_x="0" sh_y="-10" />
+	<det id="2106363904" sh_x="0" sh_y="-10" />
+	<det id="2106368000" sh_x="0" sh_y="-10" />
+	<det id="2106372096" sh_x="0" sh_y="-10" />
+	<!-- arm=1 station=2 rp=1 plane=3, all channels -->
+	<det id="2106458112" sh_x="+100" sh_y="+50" />
+	<det id="2106462208" sh_x="+100" sh_y="+50" />
+	<det id="2106466304" sh_x="+100" sh_y="+50" />
+	<det id="2106470400" sh_x="+100" sh_y="+50" />
+	<det id="2106474496" sh_x="+100" sh_y="+50" />
+	<det id="2106478592" sh_x="+100" sh_y="+50" />
+	<det id="2106482688" sh_x="+100" sh_y="+50" />
+	<det id="2106486784" sh_x="+100" sh_y="+50" />
+	<det id="2106490880" sh_x="+100" sh_y="+50" />
+	<det id="2106494976" sh_x="+100" sh_y="+50" />
+	<det id="2106499072" sh_x="+100" sh_y="+50" />
+	<det id="2106503168" sh_x="+100" sh_y="+50" />
+
+</xml>

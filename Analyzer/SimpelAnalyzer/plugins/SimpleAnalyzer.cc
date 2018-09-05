@@ -428,7 +428,7 @@ SimpleAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 
     }
   }
-
+*/
   for (const auto& recHits : *timingRecHit) {
     const TotemTimingDetId detId( recHits.detId() );
 
@@ -441,11 +441,10 @@ SimpleAnalyzer::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
       hitXHistoMap[tmpId]->Fill(recHit.getX());
       hitYHistoMap[tmpId]->Fill(recHit.getY());
 
-      if(eventCounter <= 10 || multipleTracks)
-        eventTrackPlotAddHit(eventCounter, recHit, detId);
+      //std::cout << tmpId.rawId() << " x=" << recHit.getX() << ", y=" << recHit.getY() << std::endl;
     }
   }
-
+/*
   int stripTrackCounter = 0;
 
   for (const auto& trackSet : *stripLocalTrack) {
@@ -750,6 +749,18 @@ SimpleAnalyzer::endJob() {
     std::cout << str_arm + str_pot + ": " << std::endl;
     std::cout << "Xmatched: " << trackXvsX[tmpId]->GetN() << std::endl;
     std::cout << "Ymatched: " << trackYvsY[tmpId]->GetN() << std::endl;
+
+    for(int planeNo = 0; planeNo < 4; planeNo++) {
+      TotemTimingDetId testId(arm, 2, rp, planeNo, 0);
+      std::cout << testId << " raw: " << testId.rawId() << std::endl;
+
+      std::cout << " plane: " << testId.getPlaneId().rawId() << std::endl;
+
+      for(int channelNo = 0; channelNo < 12; channelNo++) {
+        testId.setChannel(channelNo);
+        std::cout << "<det id=\"" << testId.rawId() << "\" sh_x=\"+20000\" sh_y=\"0\" />" << std::endl;
+      }
+    }
   }
 
 
